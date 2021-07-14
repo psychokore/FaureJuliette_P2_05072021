@@ -8,4 +8,52 @@ body
 	font-family: 'Raleway', sans-serif; /*Le navigateur utilise la police Raleway en priorité*/
 }
 
+header
+{
+	display: flex;
+	justify-content: space-between;
+}
 
+nav ul
+{
+	width: 30%;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	font-size: 0.9em;
+}
+ nav li
+ {
+ 	margin-right: 30px;
+ 	padding-top: 40px;
+ }
+
+ nav a
+ {
+ 	color: black;
+ 	text-decoration: none;
+ }
+
+ nav a:hover
+ {
+ 	color: #0065FC;
+ 	border-top: 3px solid #0065FC;
+ 	padding-top: 40px;
+ }
+
+#nav3 a
+{
+	color: #0065FC;
+}
+
+ #logo img /*dimension divisé par 5*/
+ {
+ 	width: 77px;
+ 	height: 36px;
+ }
+ 
+ #logo
+ {
+ 	display: flex;
+ 	align-items: flex-end;
+ }
