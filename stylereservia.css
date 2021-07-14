@@ -12,15 +12,16 @@ header
 {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 nav ul
 {
-	width: 30%;
 	list-style-type: none;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	font-size: 0.9em;
+	flex-wrap: wrap-reverse;
 }
  nav li
  {
