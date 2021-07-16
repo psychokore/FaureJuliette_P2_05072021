@@ -58,3 +58,18 @@ nav ul
  	display: flex;
  	align-items: flex-end;
  }
+
+h1
+{
+	font-size: 1em;
+}
+
+p 
+{
+	font-size: 0.8em;
+}
+
+h2
+{
+	font-size: 0.9em;
+}
