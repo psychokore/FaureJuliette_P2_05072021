@@ -69,6 +69,42 @@ h2
 	font-size: 1em;
 }
 
+#barrerecherche
+{
+	display: flex;
+	margin-top: 3vw;
+	margin-bottom: 3vw;
+}
+
+.fa-map-marker-alt
+{
+	background-color: #f2f2f2;
+	color: black;
+	padding: 10px 10px 10px 10px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	height: 100%;
+}
+
+#lieu
+{
+	border: 1px solid #f2f2f2;
+	height: 90%;
+	font-family: 'Raleway';
+	font-weight: bold;
+	padding-left: 10px;
+}
+
+#bouton
+{
+	background-color: #0065fc;
+	color: white;
+	border: 1px solid #0065fc;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	height: 98%;
+}
+
 #blochebergement
 {
 	display: flex;
