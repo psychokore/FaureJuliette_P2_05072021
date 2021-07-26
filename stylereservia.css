@@ -597,3 +597,103 @@ footer li
 	bottom: 10px;
 }
 
+/*Responsive*/
+
+@media screen and (max-width: 425px) /*pour les smartphones*/
+{
+	body
+	{
+		width: auto;
+		margin: 0;
+	}
+ 	
+ 	nav a:hover
+ 	{
+ 	color: #0065FC;
+ 	border-bottom: 3px solid #0065FC;
+ 	border-top: none;
+ 	padding-bottom: 10px;
+ 	}
+
+
+ 	nav li
+ 	{
+ 		padding-top: 0;
+ 	}
+
+ 	.lienfiltres
+ 	{
+ 		margin-bottom: 3vw;
+ 	}
+
+ 	#filtres
+ 	{
+ 		flex-wrap: wrap;
+ 		justify-content: space-between;
+ 	}
+
+ 	#filtres h4
+ 	{
+ 		width: 100%;
+ 	}
+
+ 	#recherche, 
+ 	{
+ 		word-wrap: break-word;
+ 	}
+
+ 	#infos p
+ 	{
+ 		word-wrap: break-word;
+ 	}
+
+ 	#blochebergement
+ 	{
+		flex-direction: column-reverse;
+ 		flex-wrap: wrap-reverse;
+ 		margin: 0;
+ 	}
+
+ 	#populaires
+ 	{
+ 		border-radius: 0;
+ 		margin-bottom: 3vw;
+ 	}
+
+ 	.pop
+ 	{
+ 		width: auto;
+ 		height: 30vw;
+ 	}
+
+ 	#soleil, #eau, #bleublanc
+ 	{
+ 		width: 30%;
+ 	}
+
+ 	#bloc1
+ 	{
+ 		background-color: white;
+ 	}
+
+ 	#hebergements
+ 	{
+ 		flex-direction: column;
+ 	}
+ 	#ligne1, #ligne2
+ 	{
+ 		flex-direction: column;
+ 	}
+
+ 	.description
+ 	{
+ 		width: auto;
+ 		margin-left: 0;
+ 	}
+
+ 	#cannebiere, #port, #mouettes, #mer, #panier, #amina
+ 	{
+ 		width: auto;
+ 		height: 25vw;
+ 	}
+}
