@@ -643,7 +643,15 @@ footer li
  	{
  		display: flex;
  		justify-content: space-around;
+
+ 	}
+
+ 	#smart1, #smart2
+ 	{
+ 		width: 50%;
+ 		text-align: center;
  		border-bottom: 5px solid #f2f2f2;
+ 		padding-bottom: 20px;
  	}
 
  	#navsmart a
@@ -657,7 +665,7 @@ footer li
  	{
  		color: #0065FC;
  		border-bottom: 5px solid #0065FC;
- 		padding-bottom: 10px;
+ 		padding-bottom: 20px;
  	}
 
  	#nav3
@@ -667,7 +675,10 @@ footer li
  		margin-right: 10px;
  	}
 
-
+ 	#nav3 a:hover
+ 	{
+ 		border: none;
+ 	}
 
  	nav p
  	{
