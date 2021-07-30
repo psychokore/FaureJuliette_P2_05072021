@@ -17,15 +17,14 @@ header
 	margin: 0 5vw 0 5vw;
 }
 
-nav ul
+nav 
 {
-	list-style-type: none;
 	display: flex;
 	justify-content: flex-end;
-	font-size: 0.9em;
+	font-size: 1em;
 	flex-wrap: wrap-reverse;
 }
- nav li
+ nav p
  {
  	margin-right: 30px;
  	padding-top: 20px;
@@ -35,6 +34,11 @@ nav ul
  {
  	color: black;
  	text-decoration: none;
+ }
+
+ #navs
+ {
+ 	display: flex;
  }
 
  nav a:hover
@@ -47,6 +51,7 @@ nav ul
 #nav3 a
 {
 	color: #0065FC;
+	font-weight: bold;
 }
 
  #logo img /*dimension divisé par 5*/
@@ -56,17 +61,18 @@ nav ul
 
 h1
 {
-	font-size: 1em;
+	font-size: 24px;
+	font-weight: bold;
 }
 
 p 
 {
-	font-size: 0.7em;
+	font-size: 18px;
 }
 
 h2
 {
-	font-size: 1em;
+	font-size: 20px;
 }
 
 #barrerecherche >form
@@ -76,6 +82,7 @@ h2
 	margin-bottom: 3vw;
 	margin:0 ;
 	height: 40px;
+	width: auto;
 }
 
 .fa-map-marker-alt
@@ -94,6 +101,7 @@ h2
 	font-family: 'Raleway';
 	font-weight: bold;
 	padding-left: 10px;
+	font-size: 18px;
 }
 
 #bouton
@@ -103,6 +111,7 @@ h2
 	border: 1px solid #0065fc;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
+	font-size: 18px;
 }
 
 #filtres
@@ -121,7 +130,7 @@ h2
 	border-radius: 200px;
 	margin: 0;
 	padding: 0;
-	height: 35px;
+	height: 55px;
 }
 
 #filtres div i
@@ -134,34 +143,36 @@ h2
 
 .fa-child
 {
-	padding: 10px 12px 10px 12px;
+	padding: 20px 22px 20px 22px;
 }
 
 .fa-money-bill-wave, .fa-heart, .fa-dog
 {
-	padding: 10px;
+	padding: 20px;
 }
 
 #filtres div p
 {
 	font-weight: bold;
-	font-size: 0.75em;
+	font-size: 20px;
 	align-self: center;
-	padding: 10px 10px 10px 10px;
+	padding: 20px;
 }
 
 #filtres h4 
 {
-	font-size: 0.8em;
+	font-size: 20px;
 	font-weight: bold;
 	align-self: center;
+	margin-right: 30px;
 }
 
 .lienfiltres
 {
 	color: black;
 	text-decoration: none;
-	height: 37px;
+	height: 57px;
+	align-self: center;
 }
 
 .lienfiltres:hover
@@ -187,7 +198,7 @@ h2
 
 #infos p
 {
-	font-size: 0.7em;
+	font-size: 18px;
 	margin-left: 10px;
 }
 
@@ -306,7 +317,7 @@ h2
 	background-color: white;
 	border-radius: 15px;
 	flex-direction: column;
-	border: 2px white solid;
+	border: 3px white solid;
 	box-shadow: 3px 3px 3px grey;
 	margin-bottom: 2vw;
 	margin-left: 20px;
@@ -314,7 +325,7 @@ h2
 
 h3
 {
-	font-size: 0.7em;
+	font-size: 16px;
 	font-weight: bold;
 }
 
@@ -325,7 +336,7 @@ strong
 
 .description p
 {
-	font-size: 0.6em;
+	font-size: 12px;
 }
 
 #blochebergement a
@@ -394,7 +405,7 @@ strong
 	display: flex;
 	background-color: white;
 	border-radius: 15px;
-	border: 2px white solid;
+	border: 3px white solid;
 	box-shadow: 3px 3px 3px grey;
 	margin-bottom: 2vw;
 	width: 25vw;
@@ -414,7 +425,7 @@ strong
 
 .texte p
 {
-	font-size: 0.6em;
+	font-size: 14px;
 }
 
 .texte .etoiles
@@ -424,7 +435,7 @@ strong
 
 .etoiles
 {
-	font-size: 0.6em;
+	font-size: 14px;
 	padding-left: 10px;
 	margin-bottom: 10px;
 }
@@ -487,7 +498,7 @@ strong
  
 figcaption
 {
-	font-size: 0.7em;
+	font-size: 14px;
 	font-weight: bold;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -568,7 +579,7 @@ footer
 	display: flex;
 	justify-content: flex-start;
 	background-color: #F2F2F2;
-	font-size: 0.8em;
+	font-size: 14px;
 	line-height: 20px;
 	flex-wrap: wrap;
 	margin-top: 3vw;
@@ -599,7 +610,7 @@ footer li
 
 /*Responsive*/
 
-@media screen and (max-width: 425px) /*pour les smartphones*/
+@media screen and (max-device-width: 425px) /*pour les smartphones*/
 {
 	body
 	{
@@ -607,6 +618,8 @@ footer li
 		margin: 0;
 	}
  	
+
+
  	nav a:hover
  	{
  	color: #0065FC;
@@ -616,7 +629,7 @@ footer li
  	}
 
 
- 	nav li
+ 	nav p
  	{
  		padding-top: 0;
  	}
@@ -642,6 +655,9 @@ footer li
  		word-wrap: break-word;
  	}
 
+
+
+
  	#infos p
  	{
  		word-wrap: break-word;
@@ -658,12 +674,15 @@ footer li
  	{
  		border-radius: 0;
  		margin-bottom: 3vw;
+ 		margin-right: 0;
+
  	}
 
  	.pop
  	{
  		width: auto;
- 		height: 30vw;
+ 		height: 20vw;
+ 		border: 8px white solid;
  	}
 
  	#soleil, #eau, #bleublanc
@@ -695,5 +714,37 @@ footer li
  	{
  		width: auto;
  		height: 25vw;
+ 	}
+
+ 	#activites
+ 	{
+ 		height: auto;
+ 		flex-direction: column;
+
+ 	}
+
+ 	.grande, .petite, .trespetite, .moyenne
+ 	{
+ 		width: 90vw;
+ 		height: 20vw;
+ 	}
+
+ 	.photoactivites
+ 	{
+ 		width: 90vw;
+ 		height: 25vw;
+ 	}
+
+ 	figcaption
+ 	{
+ 		padding-top: 15px;
+ 	}
+
+
+ 	
+
+ 	footer
+ 	{
+ 		flex-direction: column;
  	}
 }
