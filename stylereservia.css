@@ -57,6 +57,7 @@ nav
  #logo img /*dimension divisé par 5*/
  {
  	width: 25%;
+ 	padding-bottom: 6px;
  }
 
 h1
@@ -617,8 +618,28 @@ footer li
 		width: auto;
 		margin: 0;
 	}
- 	
 
+	header
+	{
+		align-items: center;
+	}	
+
+ 	#logo img
+ 	{
+ 		width: 60%;
+ 	}	
+
+ 	#navs
+ 	{
+ 		display: none;
+ 	}
+
+ 	#nav3
+ 	{
+ 		font-size: 2.5em;
+ 		font-weight: bold;
+ 		margin-right: 10px;
+ 	}
 
  	nav a:hover
  	{
@@ -656,9 +677,7 @@ footer li
  	}
 
 
-
-
- 	#infos p
+	#infos p
  	{
  		word-wrap: break-word;
  	}
@@ -675,7 +694,6 @@ footer li
  		border-radius: 0;
  		margin-bottom: 3vw;
  		margin-right: 0;
-
  	}
 
  	.pop
@@ -720,7 +738,6 @@ footer li
  	{
  		height: auto;
  		flex-direction: column;
-
  	}
 
  	.grande, .petite, .trespetite, .moyenne
@@ -734,14 +751,6 @@ footer li
  		width: 90vw;
  		height: 25vw;
  	}
-
- 	figcaption
- 	{
- 		padding-top: 15px;
- 	}
-
-
- 	
 
  	footer
  	{
