@@ -120,6 +120,15 @@ h2
 	font-size: 18px;
 }
 
+#buttonsmart
+{
+	display: none;
+	background-color: #0065fc;
+	color: white;
+	border: 1px solid #0065fc;
+	border-radius: 20px;
+}
+
 #filtres
 {
 	display: flex;
@@ -648,15 +657,15 @@ footer li
 
  	#smart1, #smart2
  	{
- 		width: 50%;
  		text-align: center;
  		border-bottom: 5px solid #f2f2f2;
  		padding-bottom: 20px;
+ 		font-size: 2.5em;
  	}
 
  	#navsmart a
  	{
- 		font-size: 2.2em;
+ 		width: 50%;
  		text-decoration: none;
  		color: black;
  	}
@@ -685,23 +694,89 @@ footer li
  		padding-top: 0;
  	}
 
+ 	h1
+ 	{
+ 		font-size: 4em;
+ 	}
+
+ 	#recherche p
+ 	{
+ 		font-size: 1em;
+ 	}
+
+ 	#bouton
+ 	{
+ 		display: none;
+ 	}
+
+ 	#barrerecherche >form
+ 	{
+ 		height: 10vw;
+ 		width: 100%;
+ 		justify-content: center;
+ 		margin-top: 8vw;
+ 	}
+
+ 	#buttonsmart
+ 	{
+ 		display: block;
+ 		width: 13vw;
+ 		font-size: 2em;
+ 		font-weight: bold;
+ 		padding: 6px 0 6px 0;
+ 	}
+
+ 	#lieu
+ 	{
+ 		font-size: 2.5em;
+ 		font-weight: bold;
+ 		width: inherit;
+ 		padding-left: 30px;
+ 	}
+
+ 	.fa-map-marker-alt
+ 	{
+ 		width: 5%;
+ 		align-self: center;
+ 		padding: 30px 25px 30px 35px;
+ 		font-size: 2.5em;
+ 		border-top-left-radius: 20px;
+ 		border-bottom-left-radius: 20px;
+ 	}
+
  	.lienfiltres
  	{
- 		margin-bottom: 3vw;
+ 		margin-bottom: 8vw;
+ 		font-size: 3em;
  	}
 
  	#filtres
  	{
  		flex-wrap: wrap;
  		justify-content: space-between;
+ 		width: auto;
  	}
 
  	#filtres h4
  	{
  		width: 100%;
+ 		font-size: 2.8em;
+ 		font-weight: bold;
  	}
 
- 	#recherche, 
+ 	#filtres div
+ 	{
+ 		border: 5px solid #f2f2f2;
+ 		height: 8vw;
+ 	}
+
+ 	#filtres div p
+ 	{
+ 		font-size: 40px;
+ 		font-weight: bold;
+ 		padding: 30px 50px 30px 50px;
+ 	}
+ 	#recherche
  	{
  		word-wrap: break-word;
  	}
@@ -710,6 +785,12 @@ footer li
 	#infos p
  	{
  		word-wrap: break-word;
+ 		font-size: 2.2em;
+ 	}
+
+ 	.fa-info-circle
+ 	{
+ 		font-size: 3em;
  	}
 
  	#blochebergement
