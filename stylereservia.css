@@ -793,6 +793,36 @@ footer li
  		font-size: 3em;
  	}
 
+ 	h2
+ 	{
+ 		font-size: 3em;
+ 	}
+
+ 	h3
+ 	{
+ 		font-size: 2.5em;
+ 	}
+
+ 	.description p
+ 	{
+ 		font-size: 2em;
+ 	}
+
+ 	.etoiles
+ 	{
+ 		font-size: 1.8em;
+ 	}
+
+ 	.fa-chart-line
+ 	{
+ 		font-size: 3em;
+ 	}
+
+ 	.texte p
+ 	{
+ 		font-size: 2em;
+ 	}
+
  	#blochebergement
  	{
 		flex-direction: column-reverse;
@@ -810,8 +840,8 @@ footer li
  	.pop
  	{
  		width: auto;
- 		height: 20vw;
- 		border: 8px white solid;
+ 		height: 28vw;
+ 		border: 15px white solid;
  	}
 
  	#soleil, #eau, #bleublanc
@@ -861,6 +891,15 @@ footer li
  	{
  		width: 90vw;
  		height: 25vw;
+ 		padding-bottom: 20px;
+ 	}
+
+ 	figcaption
+ 	{
+ 		font-size: 2em;
+ 		padding-bottom: 20px;
+ 		padding-top: 15px;
+ 		padding-left: 25px;
  	}
 
  	footer
