@@ -126,7 +126,7 @@ h2
 	background-color: #0065fc;
 	color: white;
 	border: 1px solid #0065fc;
-	border-radius: 20px;
+	border-radius: 10px;
 }
 
 #filtres
@@ -143,9 +143,9 @@ h2
 	align-content: center;
 	border: 1px solid #f2f2f2;
 	border-radius: 200px;
-	margin: 0;
+	margin-right: 10px;
 	padding: 0;
-	height: 55px;
+	height: 35px;
 }
 
 #filtres div i
@@ -158,25 +158,25 @@ h2
 
 .fa-child
 {
-	padding: 20px 22px 20px 22px;
+	padding: 10px 12px 10px 12px;
 }
 
 .fa-money-bill-wave, .fa-heart, .fa-dog
 {
-	padding: 20px;
+	padding: 10px;
 }
 
 #filtres div p
 {
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 16px;
 	align-self: center;
 	padding: 20px;
 }
 
 #filtres h4 
 {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	align-self: center;
 	margin-right: 30px;
@@ -186,7 +186,7 @@ h2
 {
 	color: black;
 	text-decoration: none;
-	height: 57px;
+	height: 37px;
 	align-self: center;
 }
 
@@ -239,90 +239,53 @@ h2
 	flex-wrap: wrap;
 }
 
-#ligne1
+.lignes
 {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
-#ligne2
-{
-	display: flex;	
-	justify-content: space-between;
-	flex-wrap: wrap;
-}
 
 #cannebiere
 {
-	width: 14vw;
-    height: 7vw;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #port
 {
-	width: 14vw;
-    height: 7vw;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #mouettes
 {
-	width: 14vw;
-    height: 7vw;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #mer
 {
-	width: 14vw;
-    height: 7vw;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #panier
 {
-	width: 14vw;
-    height: 7vw;
-    border-radius: 15px 15px 0 0;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #amina
+{
+	background-image: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+}
+
+.carteheb
 {
 	width: 14vw;
     height: 7vw;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
-    object-position: 50% 50%;
-	background-image: url('images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
+    object-position: 50% 50%;	
+    background-size: cover;
+	background-position: left;	
 }
 
 .description
@@ -382,39 +345,31 @@ strong
 
 #soleil
 {
-    width: 10vw;
-    height: auto;
-    border-radius: 15px 0 0 15px;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #eau
 {
-    width: 10vw;
-    height: auto;
-    border-radius: 15px 0 0 15px;
-    object-fit: cover;
-    object-position: 50% 50%;
 	background-image: url('images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
-	background-size: cover;
-	background-position: left;
 }
 
 #bleublanc
 {
-    width: 10vw;
+	background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+}
+
+.cartepop
+{
+	width: 10vw;
     height: auto;
     border-radius: 15px 0 0 15px;
     object-fit: cover;
     object-position: 50% 50%;
-	background-image: url('images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
-	background-size: cover;
+    background-size: cover;
 	background-position: left;
 }
+
+
 .pop
 {
 	display: flex;
@@ -443,10 +398,6 @@ strong
 	font-size: 14px;
 }
 
-.texte .etoiles
-{
-
-}
 
 .etoiles
 {
@@ -631,6 +582,7 @@ footer li
 	{
 		width: auto;
 		margin: 0;
+		margin-top: 5vw;
 	}
 
 	header
@@ -638,10 +590,15 @@ footer li
 		align-items: center;
 	}	
 
- 	#logo img
+ 	#logo
  	{
  		width: 60%;
- 	}	
+ 	}
+
+ 	#logo img	
+ 	{
+ 		width: 55%;
+ 	}
 
  	#navs
  	{
@@ -658,28 +615,26 @@ footer li
  	#smart1, #smart2
  	{
  		text-align: center;
- 		border-bottom: 5px solid #f2f2f2;
- 		padding-bottom: 20px;
- 		font-size: 2.5em;
+ 		margin-bottom: 10px;
+
  	}
 
  	#navsmart a
  	{
  		width: 50%;
  		text-decoration: none;
- 		color: black;
+ 		color: black; 		
+ 		border-bottom: 5px solid #f2f2f2;
  	}
 
  	#navsmart a:hover
  	{
  		color: #0065FC;
  		border-bottom: 5px solid #0065FC;
- 		padding-bottom: 20px;
  	}
 
  	#nav3
  	{
- 		font-size: 2.5em;
  		font-weight: bold;
  		margin-right: 10px;
  	}
@@ -694,16 +649,6 @@ footer li
  		padding-top: 0;
  	}
 
- 	h1
- 	{
- 		font-size: 4em;
- 	}
-
- 	#recherche p
- 	{
- 		font-size: 1em;
- 	}
-
  	#bouton
  	{
  		display: none;
@@ -711,7 +656,7 @@ footer li
 
  	#barrerecherche >form
  	{
- 		height: 10vw;
+ 		height: 15vw;
  		width: 100%;
  		justify-content: center;
  		margin-top: 8vw;
@@ -720,34 +665,23 @@ footer li
  	#buttonsmart
  	{
  		display: block;
- 		width: 13vw;
- 		font-size: 2em;
- 		font-weight: bold;
- 		padding: 6px 0 6px 0;
- 	}
-
- 	#lieu
- 	{
- 		font-size: 2.5em;
- 		font-weight: bold;
- 		width: inherit;
- 		padding-left: 30px;
- 	}
+ 		width: 15vw;
+ 		font-size: 18px;
+ 		padding: 0px 10px 0px 10px;
+ 	}	
 
  	.fa-map-marker-alt
  	{
  		width: 5%;
- 		align-self: center;
- 		padding: 30px 25px 30px 35px;
- 		font-size: 2.5em;
- 		border-top-left-radius: 20px;
- 		border-bottom-left-radius: 20px;
- 	}
-
+    	align-self: center;
+    	padding: 18px 10px 19px 15px;
+    	border-top-left-radius: 10px;
+    	border-bottom-left-radius: 10px;
+	}
+ 	
  	.lienfiltres
  	{
  		margin-bottom: 8vw;
- 		font-size: 3em;
  	}
 
  	#filtres
@@ -760,22 +694,9 @@ footer li
  	#filtres h4
  	{
  		width: 100%;
- 		font-size: 2.8em;
  		font-weight: bold;
  	}
 
- 	#filtres div
- 	{
- 		border: 5px solid #f2f2f2;
- 		height: 8vw;
- 	}
-
- 	#filtres div p
- 	{
- 		font-size: 40px;
- 		font-weight: bold;
- 		padding: 30px 50px 30px 50px;
- 	}
  	#recherche
  	{
  		word-wrap: break-word;
@@ -785,42 +706,11 @@ footer li
 	#infos p
  	{
  		word-wrap: break-word;
- 		font-size: 2.2em;
  	}
 
  	.fa-info-circle
  	{
- 		font-size: 3em;
- 	}
-
- 	h2
- 	{
- 		font-size: 3em;
- 	}
-
- 	h3
- 	{
- 		font-size: 2.5em;
- 	}
-
- 	.description p
- 	{
- 		font-size: 2em;
- 	}
-
- 	.etoiles
- 	{
- 		font-size: 1.8em;
- 	}
-
- 	.fa-chart-line
- 	{
- 		font-size: 3em;
- 	}
-
- 	.texte p
- 	{
- 		font-size: 2em;
+ 		font-size: 1.5em;
  	}
 
  	#blochebergement
@@ -896,7 +786,6 @@ footer li
 
  	figcaption
  	{
- 		font-size: 2em;
  		padding-bottom: 20px;
  		padding-top: 15px;
  		padding-left: 25px;
@@ -905,5 +794,16 @@ footer li
  	footer
  	{
  		flex-direction: column;
+ 	}
+
+ 	footer >div
+ 	{
+ 		width: auto;
+ 	}
+
+ 	footer li
+ 	{
+ 		margin-bottom: 5px;
+ 		margin-top: 10px;
  	}
 }
