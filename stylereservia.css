@@ -576,7 +576,7 @@ footer li
 
 /*Responsive*/
 
-@media screen and (max-device-width: 425px) /*pour les smartphones*/
+@media screen and (max-device-width: 767px) /*pour les smartphones*/
 {
 	body
 	{
@@ -674,7 +674,7 @@ footer li
  	{
  		width: 5%;
     	align-self: center;
-    	padding: 19px 10px 21px 15px;
+    	padding: 19px 10px 21px 15px; /*à modifier, ne fonctionne que pour iphone8*/
     	border-top-left-radius: 10px;
     	border-bottom-left-radius: 10px;
 	}
@@ -806,4 +806,35 @@ footer li
  		margin-bottom: 5px;
  		margin-top: 10px;
  	}
+}
+
+@media screen and (min-device-width: 426px) and (max-device-width: 767px ) /*entre le smartphone et la tablette*/
+{
+
+ 	#bouton
+ 	{
+ 		display: flex;
+ 	}
+
+ 	#barrerecherche >form
+ 	{
+ 		height: 10vw;
+ 		width: 100%;
+ 		justify-content: center;
+ 		margin-top: 8vw;
+ 	}
+
+ 	#buttonsmart
+ 	{
+ 		display: none;
+ 	}	
+
+ 	.fa-map-marker-alt
+ 	{
+ 		width: 5%;
+    	align-self: center;
+    	padding: 19px 10px 21px 15px; /*à modifier, ne fonctionne que pour iphone8*/
+    	border-top-left-radius: 10px;
+    	border-bottom-left-radius: 10px;
+	}
 }
