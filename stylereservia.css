@@ -674,7 +674,7 @@ footer li
  	{
  		width: 5%;
     	align-self: center;
-    	padding: 18px 10px 19px 15px;
+    	padding: 19px 10px 21px 15px;
     	border-top-left-radius: 10px;
     	border-bottom-left-radius: 10px;
 	}
@@ -734,7 +734,7 @@ footer li
  		border: 15px white solid;
  	}
 
- 	#soleil, #eau, #bleublanc
+ 	.cartepop
  	{
  		width: 30%;
  	}
@@ -759,7 +759,7 @@ footer li
  		margin-left: 0;
  	}
 
- 	#cannebiere, #port, #mouettes, #mer, #panier, #amina
+ 	.carteheb
  	{
  		width: auto;
  		height: 25vw;
