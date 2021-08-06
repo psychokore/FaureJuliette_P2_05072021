@@ -657,7 +657,6 @@ footer li
 
  	#barrerecherche >form
  	{
- 		height: 15vw;
  		width: 100%;
  		justify-content: center;
  		margin-top: 8vw;
@@ -666,19 +665,12 @@ footer li
  	#buttonsmart
  	{
  		display: block;
- 		width: 15vw;
+ 		width: 50px;
  		font-size: 18px;
  		padding: 0px 10px 0px 10px;
  	}	
 
- 	.fa-map-marker-alt
- 	{
- 		width: 5%;
-    	align-self: center;
-    	padding: 19px 10px 21px 15px; /*à modifier, ne fonctionne que pour iphone8*/
-    	border-top-left-radius: 10px;
-    	border-bottom-left-radius: 10px;
-	}
+
  	
  	.lienfiltres
  	{
@@ -824,7 +816,6 @@ footer li
 
  	#barrerecherche >form
  	{
- 		height: 10vw;
  		width: 100%;
  		justify-content: center;
  		margin-top: 8vw;
@@ -835,14 +826,7 @@ footer li
  		display: none;
  	}	
 
- 	.fa-map-marker-alt
- 	{
- 		width: 5%;
-    	align-self: center;
-    	padding: 19px 10px 21px 15px; /*à modifier, ne fonctionne que pour iphone8*/
-    	border-top-left-radius: 10px;
-    	border-bottom-left-radius: 10px;
-	}
+
 }
 
 @media screen and (min-device-width: 768px) and (max-device-width: 1023px ) /*tablettes et petits écrans*/
