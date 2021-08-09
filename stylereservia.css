@@ -884,4 +884,9 @@ footer li
 	{
 		width: auto;
 	}
+
+	.pop
+	{
+		height: 13vw;
+	}
 }
