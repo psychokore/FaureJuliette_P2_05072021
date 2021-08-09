@@ -112,7 +112,7 @@ h2
 {
 	background-color: #0065fc;
 	color: white;
-	border: 1px solid #0065fc;
+	border: 1px solid;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	font-size: 18px;
@@ -123,14 +123,14 @@ h2
 	display: none;
 	background-color: #0065fc;
 	color: white;
-	border: 1px solid #0065fc;
+	border: 1px solid;
 	border-radius: 10px;
 }
 
 #filtres
 {
 	display: flex;
-	width: 55vw;
+	width: 65vw;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -142,7 +142,6 @@ h2
 	align-content: center;
 	border: 1px solid #f2f2f2;
 	border-radius: 200px;
-	margin-right: 10px;
 	padding: 0;
 	height: 35px;
 }
@@ -185,7 +184,6 @@ h2
 {
 	color: black;
 	text-decoration: none;
-	height: 37px;
 	align-self: center;
 }
 
@@ -277,13 +275,14 @@ h2
 
 .carteheb
 {
-	width: 15vw;
+	width: auto;
     height: 8vw;
     border-radius: 15px 15px 0 0;
     object-fit: cover;
     object-position: 50% 50%;	
     background-size: cover;
 	background-position: left;	
+	border: 3px solid white;	
 }
 
 .description
@@ -293,7 +292,6 @@ h2
 	background-color: white;
 	border-radius: 15px;
 	flex-direction: column;
-	border: 3px white solid;
 	box-shadow: 3px 3px 3px grey;
 	margin-bottom: 2vw;
 	margin-left: 20px;
@@ -327,7 +325,6 @@ strong
 #populaires
 {
 	display: flex;
-	align-items: space-around;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	flex-direction: column;
@@ -367,7 +364,8 @@ strong
     object-fit: cover;
     object-position: 50% 50%;
     background-size: cover;
-	background-position: left;
+	background-position: left;	
+	border: 3px solid white;
 }
 
 
@@ -376,7 +374,7 @@ strong
 	display: flex;
 	background-color: white;
 	border-radius: 15px;
-	border: 3px white solid;
+
 	box-shadow: 3px 3px 3px grey;
 	margin-bottom: 2vw;
 	width: 25vw;
@@ -577,7 +575,7 @@ footer li
 
 /*Responsive*/
 
-@media screen and (max-device-width: 767px) /*pour les smartphones*/
+@media screen and (max-width: 767px) /*pour les smartphones*/
 {
 	body
 	{
@@ -674,14 +672,14 @@ footer li
  	
  	.lienfiltres
  	{
- 		margin-bottom: 8vw;
+ 		margin-bottom: 15px;
  	}
 
  	#filtres
  	{
  		flex-wrap: wrap;
  		justify-content: space-between;
- 		width: auto;
+ 		width: 90%;
  	}
 
  	#filtres h4
@@ -806,7 +804,7 @@ footer li
  	}
 }
 
-@media screen and (min-device-width: 426px) and (max-device-width: 767px ) /*entre le smartphone et la tablette*/
+@media screen and (min-width: 426px) and (max-width: 767px ) /*entre le smartphone et la tablette*/
 {
 
  	#bouton
@@ -829,7 +827,7 @@ footer li
 
 }
 
-@media screen and (min-device-width: 768px) and (max-device-width: 1023px ) /*tablettes et petits écrans*/
+@media screen and (min-width: 768px) and (max-width: 1023px ) /*tablettes et petits écrans*/
 {
 	#blochebergement
 	{
@@ -853,7 +851,7 @@ footer li
 
 	.pop
 	{
-		height: auto;
+		height: 15vw;
 		width: 40vw;
 	}
 
@@ -870,15 +868,20 @@ footer li
 
 	.carteheb
 	{
-		width: 25vw;
+		width: auto;
 		height: 15vw;
 	}
 }
 
-@media screen and (min-device-width: 1024px) and (max-device-width: 1439px ) /*petits écrans*/
+@media screen and (min-width: 1024px) and (max-width: 1439px ) /*petits écrans*/
 {
 	.description
 	{
 		height: 20vw;
+	}
+
+	#filtres
+	{
+		width: auto;
 	}
 }
