@@ -130,7 +130,7 @@ h2
 #filtres
 {
 	display: flex;
-	width: 65vw;
+	width: 65%;
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
@@ -457,9 +457,13 @@ strong
     box-shadow: 3px 3px 6px #f2f2f2;
     margin-right: 0;
     margin-left: 0;
+    margin-bottom: 0;
 }
 
-
+#act60, #act30
+{
+	margin-top: auto;
+}
  
 figcaption
 {
@@ -468,6 +472,7 @@ figcaption
 	padding-left: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	height: 20px;
 
 }
 
@@ -523,20 +528,17 @@ figcaption
     border-radius: 20px 20px 0 0;
 }
 
-#act70
-{
-	height: 64%;
-}
 
-#act60
-{
-	height: 54%;
-}
 
 #activites2, #activites4
 {
 	display: flex;
 	flex-direction: column;
+}
+
+.gdactivites
+{
+	height: auto;
 }
 
 footer
