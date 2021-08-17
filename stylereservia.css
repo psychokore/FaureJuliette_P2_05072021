@@ -723,8 +723,8 @@ footer li
  	.pop
  	{
  		width: auto;
- 		height: 40vw;
- 		border: 5px white solid;
+ 		height: 150px;
+ 		border: 3px white solid;
  	}
 
  	.cartepop
@@ -755,13 +755,13 @@ footer li
  	{
  		width: auto;
  		margin-left: 0;
- 		height: 60vw;
+ 		height: 200px;
  	}
 
  	.carteheb
  	{
  		width: auto;
- 		height: 40vw;
+ 		height: 150px;
  	}
 
  	#activites
@@ -772,14 +772,13 @@ footer li
  	.grande, .petite, .trespetite, .moyenne
  	{
  		width: 90vw;
- 		height: 20vw;
+ 		height: 150px;
  	}
 
  	.photoactivites
  	{
  		width: 90vw;
- 		height: 25vw;
- 		padding-bottom: 20px;
+ 		height: 200px;
  	}
 
  	figcaption
@@ -826,6 +825,16 @@ footer li
  		display: none;
  	}	
 
+ 	.description
+ 	{
+ 		height: 300px;
+ 	}
+
+ 	.carteheb
+ 	{
+ 		height: 450px;
+ 	}
+
 
 }
 
@@ -865,7 +874,7 @@ footer li
 	.description
 	{
 		width: 25vw;
-		height: 25vw;
+		height: 200px;
 	}
 
 	.carteheb
@@ -873,6 +882,8 @@ footer li
 		width: auto;
 		height: 15vw;
 	}
+
+
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1439px ) /*petits écrans*/
