@@ -45,21 +45,21 @@ nav li a
   color: #0065fc;
   font-weight: bolder;
   text-decoration: none;
-  border-top: 5px solid transparent;
+  border-top: 3px solid transparent;
   padding: 30px;
 }
 
 #signIn:hover 
 {
   color: #0065fc;
-  border-top: 5px solid #0065fc;
+  border-top: 3px solid #0065fc;
   cursor: pointer;
 }
 
 nav a:hover 
 {
   color: #0065fc;
-  border-top: 5px solid #0065fc;
+  border-top: 3px solid #0065fc;
   cursor: pointer;
 }  
 
